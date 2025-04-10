@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+#logo-head{
+    font-family: "Libre Caslon Display", serif;
+    font-weight: 500;
+    
+    font-style: normal;
+}
+
+
+
+#profile{
+    display: none;
+}
+.profilebody{
+    display: none;
+}
+
+#product-add{
+    display: none;
+}
+
+#add-img{
+    width: 400px;
+    height: 200px;
+}
+@media only screen and (min-width: 900px) {
+   #product-add{
+    display: block;
+   }
+  }

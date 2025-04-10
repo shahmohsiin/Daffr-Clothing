@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'headingFont'; 
+    src: url('./assets/fonts/ivy-presto/ivy-presto-headline-light.otf') format('opentype'); /* Path to your .woff file */
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'headingDisplayFont'; 
+    src: url('./assets/fonts/ivy-presto/ivy-presto-display-light.otf') format('opentype'); /* Path to your .woff file */
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'headingThinFont'; 
+    src: url('./assets/fonts/ivy-presto/ivy-presto-headline-thin.otf') format('opentype'); /* Path to your .woff file */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'subHeadingFont'; 
+    src: url('./assets/fonts/Jost/static/Jost-Regular.ttf') format('truetype'); /* Path to your .woff file */
+    font-weight: normal; 
+    font-style: normal; 
+  }
+  
+
+.timer-bg {
+    width: 110px;
+    height: 110px;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(16.36deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(32.73deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(49.09deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(65.45deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(81.81deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(98.18deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(114.54deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(130.90deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(147.27deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-97 -3 256 262' width='256' stroke-dasharray='45, 35' stroke='%23292929' stroke-width='3' fill='transparent' style='transform:rotate(164.2deg);'><polygon points='48,16 32,0 16,16' /><polygon points='48,240 16,240 32,256' stroke-dashoffset='-32' /></svg>");
+    background-size: 100% 100%;
+}
+
+.insta-i:hover .insta-icon {
+    opacity: 1;
+}
+
+
+.insta-img {
+
+    object-fit: cover;
+  transform: scale(1); 
+}
+
+.insta-i:hover .insta-img {
+    transform: scale(1.2);
+}
+
+
+.footer-i:hover .footer-i-line{
+
+max-width: 100vh;
+
+}
+
+
