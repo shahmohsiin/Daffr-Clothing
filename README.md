@@ -1,5 +1,10 @@
+> [!NOTE]  
+> Open to work on this project further , this project has still some features to be added
 
-# 👕 Daffr — MERN E-Commerce for Local Fashion
+
+ <img src="./logo.svg" alt="Preview 1" width="10%" />
+ 
+# Daffr — MERN E-Commerce for Local Fashion
 
 **Daffr** is a full-stack e-commerce platform that brings the charm of Lucknow’s clothing markets online.
 
